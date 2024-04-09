@@ -1,85 +1,148 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web"
+      rel="stylesheet"
+    />
+    <title>Ergineer Homeworks!</title>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
-  <title>Ergineer Homeworks!</title>
-</head>
-
-<body>
-
-  <header class="main-navigation">
-    <div class="container nav-container">
-      <h1 class="logo-heading">Eğlence Otobüsü</h1>
-      <nav class="nav">
-        <a class="nav-link" href="#">Anasayfa</a>
-        <a class="nav-link" href="#">Hakkımızda</a>
-        <a class="nav-link" href="#">Blog</a>
-        <a class="nav-link" href="#">İletişim</a>
-      </nav>
-    </div>
-  </header>
-
-  <div class="container home">
-    <header class="intro">
-      <img src="http://localhost:9000/img/fun-bus.jpg" alt="kumlar içindeki otobüs">
-      <h2>Eğlence Otobüsüne Hoş geldiniz!</h2>
-      <p>Gezici sefer modern, temiz web tasarımı blog yazarı temiz web sitesi teması web sitesi modern. Güzel tasarım tasarla, travelblogger macera WordPress yolculuk tutkusu teması blog yazarı web sitesi keşif teması travelblogger. Macera eğlencesi
-        gezgin güzel tasarım web sitesi seferi.</p>
+  <body>
+    <header class="main-navigation">
+      <div class="container nav-container">
+        <h1 class="logo-heading">Eğlence Otobüsü</h1>
+        <form>
+          <input type="text" id="input-1" />
+          <button id="btn-1">Kaydet</button>
+        </form>
+        <nav class="nav">
+          <a class="nav-link" href="#">Anasayfa</a>
+          <a class="nav-link" href="#">Hakkımızda</a>
+          <a class="nav-link" href="#">Blog</a>
+          <a class="nav-link" href="#">İletişim</a>
+        </nav>
+      </div>
     </header>
-    <section class="content-section">
-      <div class="text-content">
-        <h2>Haydi Gidelim!</h2>
-        <p>Haydi gidelum hayde hayde gidelum hayde hayde gidelum hayde.</p>
-        <p>Sefer renkli tasarım basit gezi blog yazarı blog yazarı tasarımı WordPress tasarımı, tasarım organize web sitesi teması.</p>
-      </div>
-      <div class="img-content">
-        <img src="http://localhost:9000/img/adventure.jpg" alt="Maceraya atılalım!">
-      </div>
-    </section>
-    <section class="content-section inverse-content">
-      <div class="img-content">
-        <img src="http://localhost:9000/img/fun.jpg" class="img-fluid rounded" alt="Haydi Eğlenelim!">
-      </div>
-      <div class="text-content">
-        <h2>Macera beklemez</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
 
-    </section>
-    <section class="content-destination">
-      <h2>Rotanızı Belirleyin</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <img src="http://localhost:9000/img/destination.jpg" alt="İkinci slide">
-    </section>
-    <section class="content-pick">
+    <div class="container home">
+      <header class="intro">
+        <img
+          id="img1"
+          src="http://localhost:9000/img/fun-bus.jpg"
+          alt="kumlar içindeki otobüs"
+        />
+        <h2>Eğlence Otobüsüne Hoş geldiniz!</h2>
+        <p>
+          Gezici sefer modern, temiz web tasarımı blog yazarı temiz web sitesi
+          teması web sitesi modern. Güzel tasarım tasarla, travelblogger macera
+          WordPress yolculuk tutkusu teması blog yazarı web sitesi keşif teması
+          travelblogger. Macera eğlencesi gezgin güzel tasarım web sitesi
+          seferi.
+        </p>
+        <div>
+          <img
+            id="img2"
+            draggable="true"
+            src="https://picsum.photos/200/300"
+            alt=""
+          />
+        </div>
+      </header>
+      <section class="content-section">
+        <div class="text-content">
+          <h2>Haydi Gidelim!</h2>
+          <p>Haydi gidelum hayde hayde gidelum hayde hayde gidelum hayde.</p>
+          <p>
+            Sefer renkli tasarım basit gezi blog yazarı blog yazarı tasarımı
+            WordPress tasarımı, tasarım organize web sitesi teması.
+          </p>
+        </div>
+        <div class="img-content">
+          <img
+            src="http://localhost:9000/img/adventure.jpg"
+            alt="Maceraya atılalım!"
+          />
+        </div>
+      </section>
+      <section class="content-section inverse-content">
+        <div class="img-content">
+          <img
+            src="http://localhost:9000/img/fun.jpg"
+            class="img-fluid rounded"
+            alt="Haydi Eğlenelim!"
+          />
+        </div>
+        <div class="text-content">
+          <h2>Macera beklemez</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+          </p>
+        </div>
+      </section>
+      <section class="content-destination">
+        <h2>Rotanızı Belirleyin</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <img
+          src="http://localhost:9000/img/destination.jpg"
+          alt="İkinci slide"
+        />
+      </section>
+      <section class="content-pick">
+        <div class="destination">
+          <h4>Güneş altında eğlence</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <div class="btn">Beni de Al!</div>
+        </div>
+        <div class="destination">
+          <h4>Dağ Gezintisi</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <div class="btn">Beni de Al!</div>
+        </div>
+        <div class="destination">
+          <h4>Ada Kaçamağı</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <div class="btn">Beni de Al!</div>
+        </div>
+      </section>
+    </div>
+    <!-- container -->
 
-      <div class="destination">
-        <h4>Güneş altında eğlence</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <div class="btn">Beni de Al!</div>
-      </div>
-      <div class="destination">
-        <h4>Dağ Gezintisi</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <div class="btn">Beni de Al!</div>
-      </div>
-      <div class="destination">
-        <h4>Ada Kaçamağı</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <div class="btn">Beni de Al!</div>
-      </div>
-    </section>
-  </div><!-- container -->
-
-  <footer class="footer">
-    <p>Copyright Eğlence Otobüsü 2022</p>
-  </footer>
-
-</body>
-
+    <footer class="footer">
+      <p>Copyright Eğlence Otobüsü 2022</p>
+      <p id="submitResult">Click</p>
+    </footer>
+  </body>
 </html>
